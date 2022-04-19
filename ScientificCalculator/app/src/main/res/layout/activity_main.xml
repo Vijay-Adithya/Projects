@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout tools:context=".MainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/linearLayout" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView3" android:text="Number 1"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et1"
+              android:ems="10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView2" android:text="Number 2"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et2"
+              android:ems="10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView5" android:text="Result"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et3"
+              android:ems="10"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bt1" android:text="+"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bt2" android:text="-"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bt3" android:text="*"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bt4" android:text="/"/>
+    <Button
+            android:text="sin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt5"/>
+    <Button
+            android:text="cos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt6"/>
+    <Button
+            android:text="tan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt7"/>
+    <Button
+            android:text="sqrt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt8"/>
+    <Button
+            android:text="mod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/bt9"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColourChangeActivity</string>
+    <string name="mobile_lab">mobile_lab</string>
+    <string name="size">size</string>
+    <string name="color">color</string>
+    <string name="background">background</string>
+</resources>

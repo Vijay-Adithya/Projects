@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/black"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:paddingStart="50dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="50dp"
+            android:paddingEnd="50dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="50dp"
+            android:text="@string/mobile_lab"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+    <Button
+            android:id="@+id/bt1"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginEnd="181dp"
+            android:layout_marginBottom="33dp"
+            android:text="@string/size"
+            android:textAlignment="center"/>
+
+    <Button
+            android:id="@+id/bt2"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142dp"
+            android:layout_marginEnd="181dp"
+            android:text="@string/color"/>
+
+    <Button
+            android:id="@+id/bt3"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="152dp"
+            android:text="@string/background"
+            android:textAlignment="center"/>
+
+</LinearLayout>
