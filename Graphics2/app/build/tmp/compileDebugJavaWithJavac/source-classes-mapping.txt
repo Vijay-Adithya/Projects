@@ -1,0 +1,5 @@
+com/example/graphics/BuildConfig.java
+ com.example.graphics.BuildConfig
+com/example/graphics/MainActivity.java
+ com.example.graphics.MainActivity
+ com.example.graphics.MainActivity$SampleCanvas
