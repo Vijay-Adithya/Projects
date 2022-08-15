@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(view == b1)
         {
-            count=(count+1)%10;
+            count=(count+1);
             b.setText(Integer.toString(count));
         }
         if(view == b2)

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(uname.getText().toString().matches("[a-zA-Z]+")&&(pwd.getText().toString().matches("[0-9]+"))&&(pwd.length()==4)){
-                    Toast.makeText(context,"Validation Sucessfull",Toast.LENGTH_LONG).show();
+                    Toast.makeText(context,"Validation Sucessful",Toast.LENGTH_LONG).show();
                 }
                 else if (!(uname.getText().toString().matches("[a-zA-Z]+")))
                 {

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TechloungeSecurity.iml" filepath="$PROJECT_DIR$/.idea/TechloungeSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TechloungeSecurity.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TechloungeSecurity.app.iml" />
     </modules>
   </component>
 </project>
